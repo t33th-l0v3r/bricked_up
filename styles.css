@@ -14,7 +14,7 @@ body {
 header {
     background-color: #2b2b2b;
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 }
 
@@ -43,10 +43,11 @@ header {
 
 header h1 {
     color: #FE8819;
-    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
     font-family: "Saira Stencil One", sans-serif;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-style: normal;
     font-optical-sizing: auto;
   }
@@ -76,9 +77,16 @@ main {
 
 h2 {
     font-family: "Saira Stencil One", sans-serif;
+    
 }
 
-header h3{
+header h2 {
+    margin-top: -2.5rem;
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+}
+
+header h5 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
 }
