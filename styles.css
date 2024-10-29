@@ -12,37 +12,26 @@ body {
 }
 
 header {
-    background-color: #2b2b2b;
-    color: #fff;
-    padding: 0.5rem 0;
-    text-align: center;
-}
-
-.header {
     position: relative; /* Allows absolutely positioned children */
     height: 200px; /* Set a height for your header */
-    background-color: #f4f4f4; /* Background color for contrast */
+    /*background-color: #2b2b2b; /* Background color for contrast */
     text-align: center; /* Center the header text */
+    color: #fff; /* Moved from a separate definition */
+    padding: 0.5rem 0; /* Also combined this */
+    /* Center the header text */
 }
 
-.corner-image {
+.center-image {
     position: absolute; /* Position relative to the header */
-    width: 200px; /* Set a width for your images */
+    top: -4.4rem; /* Adjust the top position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the image */
+    width: 25rem; /* Set a width for your image */
     height: auto; /* Maintain aspect ratio */
 }
 
-.left {
-    top: -20px; /* Distance from the top */
-    left: 30px; /* Distance from the left */
-}
-
-.right {
-    top: -20px; /* Distance from the top */
-    right: 30px; /* Distance from the right */
-}
-
 header h1 {
-    color: #FE8819;
+    color: #282828;
     margin-top: 0rem;
     margin-bottom: 1rem;
     font-family: "Saira Stencil One", sans-serif;
@@ -123,7 +112,10 @@ footer p {
 /* Mobile Styles */
 @media (max-width: 768px) {
     body {
-        background-size: contain;
+        background-image: url('background.png'); /* Ensure background image is set */
+        background-size: cover; /* Full coverage */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* No repeat */
         padding: 0.5rem;
     }
 
