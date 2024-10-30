@@ -178,3 +178,19 @@ footer p {
         padding: 1rem 0.5rem;
     }
 }
+
+/* Larger screens */
+.portfolio-image {
+    width: 100%; /* Takes up the full width of the section */
+    height: auto;
+    display: block;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .portfolio-image {
+        width: 80%; /* Adjust percentage as needed for mobile */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
