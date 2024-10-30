@@ -126,9 +126,9 @@ footer p {
 }
 
 .image-gallery img {
-    width: 40rem; /* Adjust as desired */
+    width: 30rem; /* Adjust as desired */
     height: auto; /* Maintains aspect ratio */
-    border: 2px solid #333;
+    border: 4px solid #333;
     border-radius: 8px;
 }
 
