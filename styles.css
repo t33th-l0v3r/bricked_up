@@ -189,7 +189,7 @@ footer p {
 /* Mobile styles */
 @media (max-width: 768px) {
     .portfolio-image {
-        width: 80%; /* Adjust percentage as needed for mobile */
+        width: 20%; /* Adjust percentage as needed for mobile */
         margin: 0 auto; /* Center the image */
     }
 }
