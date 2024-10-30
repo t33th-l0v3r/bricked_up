@@ -109,6 +109,30 @@ footer {
 footer p {
     color: white
 }
+
+
+#portfolio-gallery {
+    font-family: "Saira Stencil One", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: none;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap; /* Allows images to wrap to a new row if needed */
+}
+
+.image-gallery img {
+    width: 40rem; /* Adjust as desired */
+    height: auto; /* Maintains aspect ratio */
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     body {
