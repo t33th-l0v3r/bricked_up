@@ -166,6 +166,11 @@ footer p {
         padding: 1rem;
     }
 
+    .portfolio-image {
+        width: 20%; /* Adjust percentage as needed for mobile */
+        margin: 0 auto; /* Center the image */
+    }
+
     section {
         padding: 1rem;
         margin-bottom: 1rem;
@@ -186,11 +191,5 @@ footer p {
     display: block;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
-    .portfolio-image {
-        width: 20%; /* Adjust percentage as needed for mobile */
-        margin: 0 auto; /* Center the image */
-    }
-}
+
 
